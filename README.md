@@ -1,8 +1,8 @@
-#Pre-requisite
+# Pre-requisite
 npm install
 
-#Steps
+# Steps
 Replace your key and secret in .env
 
-#To run
+# To run
 node app.local.js
