@@ -1,34 +1,23 @@
 {
-  "name": "cobrowsesdk-auth-endpoint-sample",
+  "name": "cobrowse_endpoint",
   "version": "1.0.0",
   "description": "Generate a Cobrowse SDK JWT to join Zoom Cobrowse SDK sessions.",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
-    "format": "prettier --write src/*.js",
-    "prepare": "husky install",
-    "start": "node src/index.js"
+    "start": "node index.js"
   },
   "author": "Zoom Video Communications, Inc.",
   "contributors": [
     {
-      "name": "Tommy Gaessler"
-    },
-    {
-      "name": "James Coon"
-    },
-    {
-      "name": "EkaanshArora"
+      "name": "Ajitha"
     }
   ],
   "license": "ISC",
   "dependencies": {
+    "aws-serverless-express": "^3.4.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.18.2",
     "jsrsasign": "^10.5.25"
-  },
-  "devDependencies": {
-    "husky": "^8.0.0",
-    "prettier": "^3.1.1"
   }
 }
